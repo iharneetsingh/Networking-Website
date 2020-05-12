@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+    <h1>Login Page</h1><br>
+    {{ msg }}<br>
+    <form action = "{{ url_for('signin') }}" method = "POST">
+        <h3>Sign in</h3>
+        
+        
+        Username<br>
+        <input type = "text" name = "luname" /></br>
+        
+        Password<br>
+        <input type = "password" name = "lpassword" /><br>
+        
+        <input type = "submit" value = "submit" /><br>
+        </form>
+</body>
+</html>
